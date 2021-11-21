@@ -16,7 +16,7 @@ depends=(
 )
 makedepends=("${MINGW_PACKAGE_PREFIX}-cmake")
 source=("${_realname}-${pkgver}.tar.gz::https://github.com/onnx/onnx/archive/refs/tags/v${pkgver}.tar.gz"
-        "0001.fix-building.patch")
+        "0001.fix-building.patch::https://github.com/hubutui/mingw-w64-onnx/raw/master/patches/0001.fix-building.patch")
 sha256sums=('520b3aa34272cc215e2eb41385f58adf01750d88858d4722563edca8410c5dc9'
             '93955c15b31773852f4aec97fd1d3254f66e6b48096dae4a9eefa58af0c3cdba')
 

@@ -23,7 +23,6 @@ jobs:
       - name: makepkg
         run: |
           dos2unix PKGBUILD
-          sha256sum 0001.fix-building.patch
           makepkg-mingw -LC
       - name: Archive production artifacts
         uses: actions/upload-artifact@v2
